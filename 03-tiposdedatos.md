@@ -51,3 +51,4 @@ Python tiene varios tipos de datos, y las variables pueden contener valores de d
     - Representan secuencias de bytes (enteros en el rango de 0 a 255).
     - Útiles para manipulación de datos binarios.
 
+- [Volver al README](README.md)

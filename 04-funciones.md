@@ -106,3 +106,6 @@ lista = [1, 2, 3]
 ultimo_elemento = lista.pop()
 ```
 `pop` es un método que devuelve el último elemento de la lista y lo elimina.
+
+
+- [Volver al README](README.md)

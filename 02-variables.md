@@ -58,9 +58,4 @@ print("Hola,", nombre)
 
 En general, las variables en Python son flexibles y fáciles de usar, y su dinamismo facilita la escritura de código más conciso y legible.
 
-
-
-
-
-
-
+- [Volver al README](README.md)
