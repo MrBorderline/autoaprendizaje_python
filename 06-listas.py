@@ -13,7 +13,7 @@ print(lenguajes)
 aprendiendo = f'Estoy aprendiendo  {lenguajes[3]}' # para mezclar un STRING con una VARIABLE se utiliza la letra f 
 print(aprendiendo)
 
-# Modificar valores de un arreglo / array / List 
+# Modificar valores de un/a  List/a
 lenguajes[2] = 'C#'
 print(lenguajes)
 
