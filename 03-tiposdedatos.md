@@ -22,6 +22,10 @@ Python tiene varios tipos de datos, y las variables pueden contener valores de d
    - Pueden contener elementos de diferentes tipos.
    - Se definen con corchetes `[]`.
    - Ejemplo: `[1, 2, "tres", [4, 5]]`.
+   - La comprensión de listas en Python es una construcción sintáctica que permite crear listas de manera concisa y expresiva. Es una forma compacta de definir listas basadas en la iteración de elementos, aplicando condiciones y operaciones a cada elemento
+     - ejemplo: 
+       - ```nueva_lista = [expresion for elemento in iterable if condicion]```
+
 
 5. **Tuplas (`tuple`):**
    - Colección ordenada e inmutable de elementos.
