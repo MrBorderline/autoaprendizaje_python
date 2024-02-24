@@ -37,10 +37,7 @@ def app():
             buscar_contacto()
             preguntar = False
         elif opcion == 5:
-            print('Eliminar Contacto')
-            preguntar = False
-        elif opcion == 6:
-            print('')
+            eliminar_contacto()
             preguntar = False
         else:
             print('Opcion no valida! \r\n')
@@ -106,19 +103,30 @@ def mostrar_contacto():
                 print(linea.rstrip() + '\r') # printeamos 
             # agregamos un separador entre la salida del for
             print('\r\n')
+    app()
 
 def buscar_contacto():
     nombre = input('Escriba el nombre del contacto que busca: \r\n') # pedimos al usuario que agregue el contacto por stdin
-    try: # usa
-        with open(CARPETA + nombre + EXTENSION) as contacto:
+    try: # el try lo usamos para manejar excepciones
+        with open(CARPETA + nombre + EXTENSION) as contacto: # abrimos el archivo y analiza su contenido y se genera un alias "contacto"
             print('Informacion del contacto \r\n')
             for line in contacto:
-                print(line.rstrip())
-    except IOError:
+                print(line.rstrip()) # con el rstrip eliminamos lineas en blanco
+    except OSError as err : # el try viene seguido de un except, similar a un if cuando agregamos un else para realizar otra operacion
+                            # pero aqui hacemos uso de los errores de nuestra operacion para realizar una accion.
         print('El archivo no existe')
-        print(IOError)
-            
-
+        print(err)
+    app()
+    
+def eliminar_contacto():
+    nombre = input('Escribir el contacto a eliminar: \r\n')
+    try:
+        os.remove(CARPETA + nombre + EXTENSION)
+        print('\r\nEliminado correctamente')
+    except OSError as err :
+        print(err)
+    app()
+    
 def mostrar_menu():
     print('Seleccione la operacion a realizar')
     print('1- Agregar contacto')
@@ -126,7 +134,6 @@ def mostrar_menu():
     print('3- Ver Contacto')
     print('4- Buscar Contacto')
     print('5- Eliminar Contacto')
-    print('6- ')
 
 def crear_directorio(): 
     if not os.path.exists(CARPETA): # usamos if not para validar que sino existe una carpeta con la funcion os.path.exists(nombre_de_la_carpeta)

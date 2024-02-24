@@ -1,3 +1,0 @@
-Nombre: fabian
-Telefono: 123123123123
-Categoria: Promotor
