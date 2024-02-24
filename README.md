@@ -1,6 +1,11 @@
 # Aprendiendo python con lo que encuentre
 
+### Links 
 >[!NOTE]https://thedataschools.com/python/
+>[!NOTE]https://learnpython.org/
+>[!NOTE]https://www.learnx.org/
+
+
 
 Lo realizado en este repositorio es el resultado de busquedas de tutoriales, documentaciones, videos de todo tipo.
 
