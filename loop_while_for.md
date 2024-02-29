@@ -56,3 +56,5 @@ Notas Importantes:
 - En un bucle for, la variable de iteración toma el valor de cada elemento en el iterable en cada iteración.
 - En un bucle while, el código dentro del bucle se ejecuta mientras la condición sea verdadera.
 - Es importante evitar bucles infinitos asegurándote de que la condición en un bucle while eventualmente sea falsa, para ello se usa `contador` para la evaluacion de si la condicion es `True` o `False`
+
+- [Volver al README](README.md)

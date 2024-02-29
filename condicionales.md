@@ -67,7 +67,4 @@ else:
 
 Las condicionales son esenciales para tomar decisiones en programas y controlar el flujo de ejecución. Permiten que tu código sea más flexible y reactivo a diferentes situaciones.
 
-
-
-
-
+- [Volver al README](README.md)
