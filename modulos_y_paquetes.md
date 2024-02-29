@@ -138,5 +138,27 @@ En este caso, solo se importa la función `sumar` del módulo `aritmetica` del p
 Es importante tener en cuenta que, aunque la notación de punto es la forma estándar y legible de acceder a funciones en paquetes, hay casos donde usar from puede hacer que tu código sea más claro, especialmente si solo necesitas unas pocas funciones de un módulo específico.
 
 
-### Resumen 
+## Resumen 
 
+__Paquetes__:
+
+- Son directorios que contienen módulos y un archivo especial llamado __init__.py.
+- Organizan y estructuran el código en jerarquías.
+- Permiten agrupar módulos relacionados en un espacio de nombres común.
+- Ayudan a evitar conflictos de nombres al organizar el código de manera más clara.
+
+__Módulos__:
+
+- Son archivos de Python que contienen definiciones y declaraciones.
+- Permiten organizar y reutilizar código de manera efectiva.
+- Pueden contener funciones, variables, clases y código ejecutable.
+- Facilitan la modularidad y mantenimiento del código al dividirlo en componentes más pequeños y manejables.
+
+__Notación de Punto__:
+
+- Utilizada para acceder a funciones, variables o clases dentro de módulos o paquetes.
+- Sintaxis: objeto.atributo o objeto.metodo().
+- Proporciona un medio claro para especificar el alcance y la ubicación de un componente en la jerarquía del código.
+- Permite evitar conflictos de nombres y organizar el código de manera estructurada.
+
+En resumen, los paquetes son directorios que contienen módulos, los módulos son archivos que contienen código, y la notación de punto se utiliza para acceder a funciones, variables o clases dentro de módulos o paquetes, proporcionando estructura y organización al código.
