@@ -1,8 +1,6 @@
 # Usamos el ejemplo de la creacion de una playlist en alguna app de video/musica
 
 playlist = {'nombre': '', 'canciones' : []} # creamos una estructura de un diccionario y dentro de la misma definimos el modelo de claves y elementos
-#playlist = {} # definimos el diccionario vario 
-#playlist['canciones'] = [] # creacion de lista con key "canciones" sin elementos en diccionario "playlist"
 
 def app():
     agregar_playlist = True # validador para el bucle con while / bandera 

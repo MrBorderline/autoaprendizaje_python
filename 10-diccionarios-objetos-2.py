@@ -2,7 +2,6 @@
 jugador = {}
 
 # agregar un elemento al diccionario u objeto
-# unir un "jugador"
 jugador['nombre'] = 'Maxi'
 jugador['puntaje'] = 0
 print(jugador)

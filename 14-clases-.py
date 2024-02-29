@@ -1,16 +1,3 @@
-# import json
-# lista = {'id':'1',
-#          'name':'maxi',
-#          'edad':'35',
-#          'sexo':'masculino',
-#          'aptitudes':['enojado','perseverante','lindo'],
-#          'gustos':['marihuana','sexo infantil','cojerme a tu vieja']
-#         }
-
-# json_string = json.dumps(lista)
-# print(json_string)
-
-
 class Animal:
     def __init__(self, nombre):
         self.nombre = nombre

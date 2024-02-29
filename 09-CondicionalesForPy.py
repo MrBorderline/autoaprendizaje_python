@@ -1,9 +1,8 @@
 lenguajes = ['php', 'Kotlin', 'JAVA', 'JavaScript']
 
-#cuando haces condicion el valor es modificado 
 for l in lenguajes:
     if l ==  'Python':
-        print(l.upper())
+        print(l.upper()) #  Metodo Upper modifica el string en mayusculas
     else:
         print(l)
     
